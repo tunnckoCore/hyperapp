@@ -6,7 +6,7 @@ module.exports = function (options) {
 	var effects = options.effects || {}
 	var reducers = options.update || {}
 
-	var subs = options.subscriptions
+	var subs = options.subscriptions || {}
 
 	var router = options.router || Function.prototype
 
